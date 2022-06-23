@@ -45,14 +45,14 @@ Serial serial(115200);                  // 串口对象
 uint8_t last_state = ARMOR_STATE;     // 上次状态，用于初始化
 // 自瞄主程序对象
 ArmorFinder armor_finder(mcu_data.enemy_color, serial, PROJECT_DIR"/tools/para/", mcu_data.anti_top);
-// 能量机关主程序对象
+// 能量机关主程序对象---123
 Energy energy(serial, mcu_data.enemy_color);
 
 int main(int argc, char *argv[]) {
     processOptions(argc, argv);             // 处理命令行参数
     thread receive(uartReceive, &serial);   // 开启串口接收线程
 
-    int from_camera = 1;                    // 根据条件选择视频源
+    int from_camera = 0;                    // 根据条件选择视频源
     if (!run_with_camera) {
         cout << "Input 1 for camera, 0 for video files" << endl;
         cin >> from_camera;
