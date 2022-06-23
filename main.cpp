@@ -56,6 +56,7 @@ int main(int argc, char *argv[]) {
     if (!run_with_camera) {
         cout << "Input 1 for camera, 0 for video files" << endl;
         cin >> from_camera;
+        std::cout<<"hello"<<std::endl;
     }
 
     while (true) {
