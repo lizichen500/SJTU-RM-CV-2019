@@ -15,7 +15,7 @@
 
 **分享部分比赛时摄像头录制的视频:**
 
-链接: https://pan.baidu.com/s/1LwxEpeYYblX3cSzb59MTVg 提取码: 84ju 复制这段内容后打开百度网盘手机App，操作更方便哦
+链接: https://pan.baidu.com/s/1LwxEpeYYblX3cSzb59MTVg 提取码: 84ju 复制这段内容后打开百度网盘手机App，操作更好
 
 ---
 
