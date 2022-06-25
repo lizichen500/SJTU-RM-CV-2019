@@ -78,7 +78,7 @@ int main(int argc, char *argv[]) {
                 video->read(src);
             }
         }
-        bool ok = true;
+        bool ok = 1;
         cout << "start running" << endl;
         do {
             char curr_state = mcu_data.state;
